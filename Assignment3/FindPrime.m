@@ -5,8 +5,8 @@ function [Answer] = FindPrime(Number)
 %   prime).
 
 if (isprime(Number))
-    Answer = true
+    Answer = true;
 else
-    Answer = false
+    Answer = false;
 end
 

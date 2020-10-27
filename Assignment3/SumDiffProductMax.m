@@ -1,9 +1,10 @@
-function [Sum,Difference,Product,Max] = SumDiffProductMax(Number1,Number2)
-%UNTITLED6 Summary of this function goes here
-%   Detailed explanation goes here
-Sum = Number1+Number2;
-Difference = Number1-Number2;
-Product = Number1*Number2;
-Max = max(Number1,Number2);
+function SumDiffProductMax(Number1,Number2)
+%Compute sum, difference, product, and max of two numbers
+%   This function will compute the sum, difference, product, and select the
+%   max between two numbers input by the user.
+Sum = (Number1+Number2)
+Difference = (Number1-Number2)
+Product = (Number1*Number2)
+Max = max(Number1,Number2)
 end
 

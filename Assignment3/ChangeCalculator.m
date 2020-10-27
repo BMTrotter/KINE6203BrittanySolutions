@@ -1,6 +1,7 @@
-function [TotalChange] = ChangeCalculator(Quarters,Dimes,Nickels,Pennies)
-%UNTITLED8 Summary of this function goes here
-%   Detailed explanation goes here
+function ChangeCalculator(Quarters,Dimes,Nickels,Pennies)
+%Calculate total amount of change
+%   This function allows the user to input a number of quarters, dimes,
+%   nickels, and pennies and will calculate the total change amount.
 
 Quarters = Quarters*0.25;
 Dimes = Dimes*0.10;
