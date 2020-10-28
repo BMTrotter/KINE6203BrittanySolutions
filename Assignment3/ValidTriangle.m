@@ -18,7 +18,7 @@ elseif (H == c)
     TwoSides = a+b;
 end
 
-if (H > TwoSides)
+if (H < TwoSides)
     LogicalValue = true;
 else
     LogicalValue = false;
